@@ -1,5 +1,5 @@
-num = int(input())
-mod = num % 2
+num =int(input())
+mod =num % 2
 if mod > 0:
     print("This is an odd")
 else:
