@@ -1,8 +1,8 @@
 test=['a','e','i','o','u','A','E','I','O','U']
-a=raw_input()
-if(a in test):
+jj=raw_input()
+if(jj in test):
 	print('vowel')
-elif(a!=test):
+elif(jj!=test):
 	print('consonant')
 else:
 	print('invalid')
