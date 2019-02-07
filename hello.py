@@ -1,4 +1,4 @@
-p=" hello \t "
+p="Hello"
 k=int(input())
-j=p*k
-print (i)
+for i in range(k):
+   print (p)
