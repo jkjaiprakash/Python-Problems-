@@ -1,6 +1,6 @@
 d=int(input())
-mod =d%2
-if mod > 0:
+we =d%2
+if we > 0:
     print("Odd")
 else:
     print("Even")
