@@ -1,4 +1,4 @@
-rear= int(input("Enter Year: "))
+rear= int(input())
 if year % 4 == 0 and rear % 100 != 0:
     print("Yes")
 elif rear % 100 == 0:
