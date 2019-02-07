@@ -1,10 +1,8 @@
-print("Enter '0' for exit.");
-ch = input("Enter any character: ");
-if ch == '0':
-    exit();
+test=['a','e','i','o','u','A','E','I','O','U']
+a=raw_input()
+if(a in test):
+	print('vowel')
+elif(a!=test):
+	print('consonant')
 else:
-    if(ch=='a' or ch=='A' or ch=='e' or ch=='E' or ch=='i' or ch=='I'
-       or ch=='o' or ch=='O' or ch=='u' or ch=='U'):
-    	    print(ch, "is a vowel.");
-    else:
-    	print(ch, "is not a vowel.");
+	print('invalid')
