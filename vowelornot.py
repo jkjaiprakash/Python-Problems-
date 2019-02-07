@@ -1,8 +1,8 @@
 test=['a','e','i','o','u','A','E','I','O','U']
 jj=raw_input()
 if(jj in test):
-	print('vowel')
+	print('Vowel')
 elif(jj!=test):
-	print('consonant')
+	print('Consonant')
 else:
 	print('invalid')
