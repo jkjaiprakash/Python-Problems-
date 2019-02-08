@@ -1,7 +1,7 @@
 while True:
 	try:
-		a, b= raw_input().split( )
-		a=int(a)
+		z, b= raw_input().split( )
+		z=int(z)
 		b=int(b)
 		break
 	except:
@@ -9,6 +9,6 @@ while True:
 		break
 c=1
 for x in range(b):
-	c=c*a
+	c=c*z
 print(c)
 	
