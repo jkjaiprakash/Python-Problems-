@@ -1,7 +1,7 @@
-l,n=raw_input().split()
+l,m=raw_input().split()
 l=int(l)
-n=int(n)
+m=int(m)
 
-for i in range(l+1,n):
+for i in range(l+1,m):
 	if(i%2==0):
 		print i,
